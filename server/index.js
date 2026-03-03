@@ -22,7 +22,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://web-3d-product-viewer.vercel.app/",
+      "https://web-3d-product-viewer.vercel.app",
     ],
     credentials: true,
   })
