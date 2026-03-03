@@ -80,9 +80,9 @@ const Viewer = () => {
         setBackgroundColor(settings.backgroundColor || "#ffffff");
         setWireframe(settings.wireframe || false);
 
-        // Set modelId and modelUrl so viewer restores the last model
+       
         setModelId(settings.modelId || null);
-        setModelUrl(settings.modelUrl || null); // make sure backend sends modelUrl
+        setModelUrl(settings.modelUrl || null); 
       }
     } catch (error) {
       console.error("Failed to load settings:", error);
