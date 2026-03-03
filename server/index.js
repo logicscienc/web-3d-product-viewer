@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+app.set("trust proxy", 1);
+
 const uploadRoutes = require("./routes/Upload");
 const settingRoutes = require("./routes/Settings");
 
