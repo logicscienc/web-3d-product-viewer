@@ -1,0 +1,53 @@
+{
+  "name": "react-tailwind-css-starter-pack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@react-three/drei": "^9.88.13",
+    "@react-three/fiber": "^8.15.12",
+    "axios": "^1.13.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.5",
+    "three": "^0.152.2",
+    "three-mesh-bvh": "^0.6.8",
+    "web-vitals": "^2.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+  },
+  "author": "Pranay Gupta",
+  "bugs": {
+    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "ajv": "^8.18.0",
+    "ajv-keywords": "^5.1.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
