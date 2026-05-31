@@ -90,13 +90,7 @@ Notes on Hosting / Limitations
 
 Since the frontend and backend are hosted on separate free-tier platforms, there may be a slight delay in API response. For example, after saving settings, the model and viewer configuration may briefly disappear on reload but reappear once the backend responds. This is expected behavior due to free hosting latency and does not affect functionality.
 
-License
-
-This project is for educational purposes as part of a Full Stack Developer Test Assignment.
 
 
----
 
-If you want, I can also **make a slightly shorter “submission-ready” version of the README** that’s perfect for recruiters — concise but professional.  
 
-Do you want me to do that?
