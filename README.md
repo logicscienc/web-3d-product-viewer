@@ -1,6 +1,6 @@
 # 3D Product Viewer Web Application
 
-**Full Stack Developer Test Assignment**  
+**Full Stack Web APP**  
 Built with **MERN + Three.js**  
 
 ---
