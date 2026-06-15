@@ -16,6 +16,12 @@ const Viewer = () => {
   const [loading, setLoading] = useState(false);
   const [saving, setSaving] = useState(false);
 
+
+useEffect(() => {
+  console.log("modelUrl:", modelUrl);
+}, [modelUrl]);
+  
+
   // Upload Model to Backend
   const handleModelUpload = async (e) => {
     const file = e.target.files[0];
@@ -73,6 +79,8 @@ const Viewer = () => {
   const fetchSettings = async () => {
     try {
       const res = await getViewerSettingsApi();
+
+      console.log("SETTINGS RESPONSE:", res.data);
 
       const settings = res.data.data;
 
