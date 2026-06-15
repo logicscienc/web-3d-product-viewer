@@ -39,6 +39,7 @@ useEffect(() => {
       const { id, fileUrl } = res.data.data;
 
       setModelId(id);
+      console.log("FULL URL", settings.modelUrl);
       setModelUrl(fileUrl);
 
     } catch (error) {
@@ -89,8 +90,11 @@ useEffect(() => {
         setWireframe(settings.wireframe || false);
 
        
-        setModelId(settings.modelId || null);
-        setModelUrl(settings.modelUrl || null); 
+        // setModelId(settings.modelId || null);
+        // setModelUrl(settings.modelUrl || null); 
+         setModelId(null);
+  setModelUrl(null);
+        
       }
     } catch (error) {
       console.error("Failed to load settings:", error);
