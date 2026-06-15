@@ -39,7 +39,6 @@ useEffect(() => {
       const { id, fileUrl } = res.data.data;
 
       setModelId(id);
-      console.log("FULL URL", settings.modelUrl);
       setModelUrl(fileUrl);
 
     } catch (error) {
